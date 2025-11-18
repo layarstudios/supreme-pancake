@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Layar Studios - High-Performing Content &amp; Event Photography</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#9d25f4",
+              "background-light": "#f7f5f8",
+              "background-dark": "#111111",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.05);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            box-shadow: 0 0 40px 0 rgba(157, 37, 244, 0.3);
+            border-color: rgba(157, 37, 244, 0.5);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px 0 rgba(157, 37, 244, 0.5);
+        }
+        .cta-button:hover {
+            box-shadow: 0 0 30px 0 rgba(157, 37, 244, 0.8);
+            transform: translateY(-2px);
+        }
+        .glow-circle {
+            box-shadow: 0 0 20px 0 rgba(157, 37, 244, 0.6);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 19px;top: 48px;
+            bottom: -16px;
+            width: 2px;
+            background: linear-gradient(to bottom, #9d25f4, #0a0f2c);
+            z-index: 0;
+        }
+        .timeline-item:last-child::before {
+            display: none;
+        }
+        .timeline-dot {
+            box-shadow: 0 0 15px 2px rgba(157, 37, 244, 0.7);
+        }
+    </style>
+</head>
+<body class="bg-background-dark font-display text-gray-300">
+<div class="relative w-full overflow-x-hidden" style="background: radial-gradient(circle at 20% 20%, #9d25f420, transparent 40%), radial-gradient(circle at 80% 80%, #0022ff20, transparent 40%), #111111;">
+<div class="relative flex min-h-screen w-full flex-col dark group/design-root z-10">
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center px-4 sm:px-8 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex w-full max-w-6xl flex-col flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-white/10 px-6 md:px-10 py-4 glass-card rounded-xl fixed top-5 left-1/2 -translate-x-1/2 w-[95%] max-w-6xl z-50">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-bold leading-tight tracking-[-0.015em]">Layar Studios</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Results</a>
+<a class="text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Process</a>
+<a class="text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="cta-button flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Get a Quote</span>
+</button>
+</div>
+<div class="md:hidden">
+<span class="material-symbols-outlined text-white">menu</span>
+</div>
+</header>
+<main class="mt-32 md:mt-40">
+<section class="flex flex-col items-center justify-center text-center py-20 md:py-32">
+<div class="glass-card rounded-xl p-8 md:p-12 max-w-4xl">
+<div class="flex flex-col gap-6">
+<h1 class="text-white text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">Stop Wasting Money on Paid Ads. Grow With High-Performing Content That Actually Engages.</h1>
+<h2 class="text-gray-300 text-base md:text-lg font-normal leading-normal max-w-3xl mx-auto">We help brands create strategic, story-driven content that grabs attention, drives real engagement, and reduces reliance on expensive, ineffective ads.</h2>
+<div class="flex flex-wrap gap-4 justify-center pt-4">
+<button class="cta-button flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Get High-Performing Content</span>
+</button>
+<button class="cta-button flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-white/10 text-white text-base font-bold leading-normal tracking-[0.015em] border border-white/20">
+<span class="truncate">See Our Work</span>
+</button>
+</div>
+</div>
+</div>
+<div class="flex gap-3 p-3 flex-wrap justify-center mt-10">
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/5 px-4"><p class="text-white text-sm font-medium leading-normal">Corporate</p></div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/5 px-4"><p class="text-white text-sm font-medium leading-normal">Retail</p></div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/5 px-4"><p class="text-white text-sm font-medium leading-normal">Non-Profit</p></div>
+<div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/5 px-4"><p class="text-white text-sm font-medium leading-normal">Government</p></div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">The Truth No One Says Out Loud.</h2>
+</div>
+<div class="glass-card rounded-xl p-8 md:p-12 border-l-4 border-[#ff5555]">
+<div class="flex flex-col md:flex-row items-center gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-2xl text-[#ff5555]">local_fire_department</span>
+<p class="text-white text-lg font-normal leading-normal flex-1"><strong>Burning Budget:</strong> Paid ad costs are rising, but new audiences aren't growing. Brands are burning money without seeing engagement.</p>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-2xl text-[#ff5555]">bolt</span>
+<p class="text-white text-lg font-normal leading-normal flex-1"><strong>Ad Fatigue:</strong> Users are numb. If your content doesn’t connect, no amount of ad spend can save it. Your audience wants authentic, story-driven content — not another sponsored post.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">We Don’t Make Pretty Content. We Make Content That Performs.</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="glass-card rounded-xl p-6 flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">movie</span>
+<h3 class="text-white font-bold text-xl">Storytelling That Makes People Care</h3>
+<p class="text-gray-300">We create scroll-stopping, emotionally resonant content.</p>
+</div>
+<div class="glass-card rounded-xl p-6 flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+<h3 class="text-white font-bold text-xl">AI-Enhanced Ideation &amp; Production</h3>
+<p class="text-gray-300">Faster workflows, smarter scripts, sharper edits.</p>
+</div>
+<div class="glass-card rounded-xl p-6 flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">groups</span>
+<h3 class="text-white font-bold text-xl">Creators First, Strategists Second</h3>
+<p class="text-gray-300">Strategy from people who actually shoot and edit.</p>
+</div>
+<div class="glass-card rounded-xl p-6 flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">trending_up</span>
+<h3 class="text-white font-bold text-xl">Organic-First Growth</h3>
+<p class="text-gray-300">Higher retention, more shares, more engagement.</p>
+</div>
+<div class="glass-card rounded-xl p-6 flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">photo_camera</span>
+<h3 class="text-white font-bold text-xl">Event Photography With Direction</h3>
+<p class="text-gray-300">We capture moments your brand will reuse all year.</p>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">What We Do</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="glass-card rounded-xl p-8">
+<h3 class="text-2xl font-bold text-white mb-6">Content Creation</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Short-form videos</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Corporate storytelling</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Retail/product content</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>CEO/founder brand videos</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Testimonials &amp; UGC-style</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Monthly content packages</li>
+</ul>
+</div>
+<div class="glass-card rounded-xl p-8">
+<h3 class="text-2xl font-bold text-white mb-6">Event Coverage</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Corporate events</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Retail activations</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Community &amp; non-profit events</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>Conferences, forums, talks</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-primary">check_circle</span>CSR programmes</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Why Brands Choose Us</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="glass-card rounded-xl p-6 flex items-center gap-4"><span class="material-symbols-outlined text-3xl text-primary">star</span><p>Content that outperforms industry averages</p></div>
+<div class="glass-card rounded-xl p-6 flex items-center gap-4"><span class="material-symbols-outlined text-3xl text-primary">show_chart</span><p>More growth without more ad spend</p></div>
+<div class="glass-card rounded-xl p-6 flex items-center gap-4"><span class="material-symbols-outlined text-3xl text-primary">psychology</span><p>No creative fatigue</p></div>
+<div class="glass-card rounded-xl p-6 flex items-center gap-4"><span class="material-symbols-outlined text-3xl text-primary">verified</span><p>Strategic thinking + creator execution</p></div>
+<div class="glass-card rounded-xl p-6 flex items-center gap-4"><span class="material-symbols-outlined text-3xl text-primary">bolt</span><p>Fast turnaround times</p></div>
+<div class="glass-card rounded-xl p-6 flex items-center gap-4"><span class="material-symbols-outlined text-3xl text-primary">calendar_month</span><p>Consistent output monthly</p></div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Results That Speak for Themselves</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+<div class="flex flex-col items-center gap-4">
+<div class="glow-circle glass-card size-36 rounded-full flex items-center justify-center border-2 border-primary"><p class="text-3xl font-bold text-white">+350%</p></div>
+<p class="text-gray-300">Increase in Engagement</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<div class="glow-circle glass-card size-36 rounded-full flex items-center justify-center border-2 border-primary"><p class="text-3xl font-bold text-white">+500%</p></div>
+<p class="text-gray-300">Growth in Video Views</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<div class="glow-circle glass-card size-36 rounded-full flex items-center justify-center border-2 border-primary"><p class="text-3xl font-bold text-white">100+</p></div>
+<p class="text-gray-300">Events Covered</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<div class="glow-circle glass-card size-36 rounded-full flex items-center justify-center border-2 border-primary"><p class="text-3xl font-bold text-white">Top-Tier</p></div>
+<p class="text-gray-300">Trusted by Corporate Teams</p>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-16">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">A Simple Process That Removes Stress</h2>
+</div>
+<div class="flex flex-col gap-10">
+<div class="timeline-item relative pl-16">
+<div class="timeline-dot absolute left-2 top-1 size-8 bg-primary rounded-full flex items-center justify-center text-white font-bold">1</div>
+<div class="glass-card rounded-xl p-6">
+<h3 class="text-xl font-bold text-white mb-2">Strategy Call</h3>
+<p class="text-gray-300">Understand your goals and challenges.</p>
+</div>
+</div>
+<div class="timeline-item relative pl-16">
+<div class="timeline-dot absolute left-2 top-1 size-8 bg-primary rounded-full flex items-center justify-center text-white font-bold">2</div>
+<div class="glass-card rounded-xl p-6">
+<h3 class="text-xl font-bold text-white mb-2">Creative Blueprint</h3>
+<p class="text-gray-300">Story angles, ideas, and shotlists.</p>
+</div>
+</div>
+<div class="timeline-item relative pl-16">
+<div class="timeline-dot absolute left-2 top-1 size-8 bg-primary rounded-full flex items-center justify-center text-white font-bold">3</div>
+<div class="glass-card rounded-xl p-6">
+<h3 class="text-xl font-bold text-white mb-2">Production Day</h3>
+<p class="text-gray-300">We direct, shoot, and guide talent.</p>
+</div>
+</div>
+<div class="timeline-item relative pl-16">
+<div class="timeline-dot absolute left-2 top-1 size-8 bg-primary rounded-full flex items-center justify-center text-white font-bold">4</div>
+<div class="glass-card rounded-xl p-6">
+<h3 class="text-xl font-bold text-white mb-2">Editing &amp; Delivery</h3>
+<p class="text-gray-300">AI-assisted for speed, creator-led for quality.</p>
+</div>
+</div>
+<div class="timeline-item relative pl-16">
+<div class="timeline-dot absolute left-2 top-1 size-8 bg-primary rounded-full flex items-center justify-center text-white font-bold">5</div>
+<div class="glass-card rounded-xl p-6">
+<h3 class="text-xl font-bold text-white mb-2">Publish &amp; Grow</h3>
+<p class="text-gray-300">Content ready to post — with real engagement.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="text-center mb-12">
+<h2 class="text-white text-3xl md:text-4xl font-bold leading-tight tracking-[-0.015em]">Who We Work Best With</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="glass-card rounded-xl p-8 border-t-4 border-green-400">
+<h3 class="text-2xl font-bold text-white mb-6">A Good Fit If You...</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400">check_circle</span>Are seeking higher organic engagement.</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400">check_circle</span>Are a team frustrated with paid ads.</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400">check_circle</span>Need consistent, high-quality output.</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-green-400">check_circle</span>Value authentic storytelling.</li>
+</ul>
+</div>
+<div class="glass-card rounded-xl p-8 border-t-4 border-red-500">
+<h3 class="text-2xl font-bold text-white mb-6">Not a Fit If You...</h3>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-red-500">cancel</span>Want cheap, generic content.</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-red-500">cancel</span>Are focused on quantity over quality.</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-red-500">cancel</span>Need results without a strategy.</li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-red-500">cancel</span>Are not open to creative direction.</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="glass-card rounded-xl p-8 md:p-16 text-center">
+<h2 class="text-white text-3xl md:text-5xl font-bold leading-tight tracking-[-0.015em] mb-4">Ready to Make Your Marketing Effective Again?</h2>
+<p class="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">Stop paying for ads people skip. Start creating content people remember.</p>
+<div class="flex flex-wrap gap-4 justify-center">
+<button class="cta-button flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Get High-Performing Content</span>
+</button>
+<button class="cta-button flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-6 bg-white/10 text-white text-base font-bold leading-normal tracking-[0.015em] border border-white/20">
+<span class="truncate">Book a Strategy Call</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="text-center py-8 border-t border-white/10 mt-12">
+<p class="text-gray-400">© 2024 Layar Studios. All Rights Reserved.</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
