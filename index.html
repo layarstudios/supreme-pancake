@@ -106,7 +106,14 @@
 <div class="flex flex-col gap-6">
 <h1 class="text-white text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">
   Grow Your Brand with Content That 
-  <span class="bg-clip-text text-transparent" style="background: linear-gradient(135deg, #3A95CD, #9B44DF);">
+  <span style="
+    background: linear-gradient(135deg, #3A95CD, #9B44DF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+  ">
     Outperforms Paid Ads
   </span>.
 </h1>
