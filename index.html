@@ -42,10 +42,19 @@
             transition: all 0.3s ease;
             box-shadow: 0 0 15px 0 rgba(157, 37, 244, 0.5);
         }
-      .cta-button {
-    background: linear-gradient(135deg, #3A95CD, #9B44DF) !important;
-    border: none;
-}
+        /* Primary CTA buttons (gradient) */
+    .cta-button.primary {
+        background: linear-gradient(135deg, #3A95CD, #9B44DF);
+        border: none;
+        color: white;
+    }
+    /* Secondary CTA buttons (transparent/subtle) */
+    .cta-button.secondary {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+    }
+</style>
         .cta-button:hover {
             box-shadow: 0 0 30px 0 rgba(157, 37, 244, 0.8);
             transform: translateY(-2px);
@@ -115,7 +124,7 @@
     font-weight: 900;
   ">
     Outperforms Paid Ads
-  </span>.
+  </span>
 </h1>
 <h2 class="text-gray-300 text-base md:text-lg font-normal leading-normal max-w-3xl mx-auto">We help brands create strategic, story-driven content that grabs attention, drives real engagement, and reduces reliance on expensive, ineffective ads.</h2>
 <div class="flex flex-wrap gap-4 justify-center pt-4">
